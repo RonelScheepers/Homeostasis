@@ -3,7 +3,7 @@ This repository contains the MATLAB and SINGULAR code for the mathematical analy
 
 Authors: Ronel Scheepers and Robyn P. Araujo, May 2023, Queensland University of Technology, Brisbane, Australia.
 
-THe mass-action analysis was performed by implementing the universal algorithm developed by Araujo and Liotta (Universal Structures for Adaptation in Biochemical Reaction Networks, 2023) via the open-source software Singular. 
+The mass-action analysis was performed by implementing the universal algorithm developed by Araujo and Liotta (Universal Structures for Adaptation in Biochemical Reaction Networks, 2023) via the open-source software Singular. 
 The following instructions describe how this software can be access or downloaded:
 The open–source software Singular can either be accessed via Jupyterlab, an extensible environment for interactive and reproducible computing that is based on the Jupyter Notebook and architecture, or via running Singular from the computer’s Terminal. In the first instance, follow the steps below to run Singular as a web–based interface on a local computer:
 Download Anaconda from https://www.anaconda.com/products/distribution,
