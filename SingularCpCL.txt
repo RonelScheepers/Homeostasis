@@ -1,0 +1,25 @@
+Step 1: Open the application Singular in the computer Terminal,
+Step 2: Copy and paste the following code into the Terminal to compute the projection of <f_1,...f_13>, [Cp, CL]:
+
+ring F = (0,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,p1,p2,p3,mu,eta,
+theta,alpha),(Sp,C,P,R,Sr,Sh,H,HR,E,Cf,Sci,Ce,Cp,CL),(dp(11),dp(2));
+
+poly f1 = mu - eta*Sci*C;
+poly f2 = theta*Ce - eta*Sci*C;
+poly f3 = k1*Sci - k2*Sr;
+poly f4 = k1*Sci - k10*Sh;
+poly f5 = p1*Sr - k11*R - k14*P*R;
+poly f6 = k3*CL*R - k4*Cf;
+poly f7 = k4*Cf - k5*Cp + k6*Ce;
+poly f8 = k5*Cp - k6*Ce + k9*HR*H - k12*Ce - k7*Ce + k8*E;
+poly f9 = k7*Ce - k8*E;
+poly f10 = p2*Sh - k15*HR*Ce;
+poly f11 = alpha - k9*HR*H;
+poly f12 = k1*Sci - k13*Sp;
+poly f13 = p3*Sp - k16*P;
+
+ideal I = f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13;
+ideal GI = groebner(I);
+GI;  
+
+lift(I,GI[1]);
