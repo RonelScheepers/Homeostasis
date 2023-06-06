@@ -26,6 +26,6 @@ https://www.singular.uni-kl.de/index.php/singular-download.html
 The numerical analysis in Section 4.3 was performed on data generated using the files labelled as StabilityOriginalParameters.mlx and StabilityRandomParameters.mlx respectively while the MATLAB script Chol_Input_Tiled.m generated the Figures 4a - 4d.
 
 
-The code listings for analysing RPA in the cholesterol concentration of the plasma membrane (Cp), the free cholesterol (Cf) and esterified cholesterol (E) is provided in the SingularRPA_Cp.pdf, Singular_Cf.pdf and Singular_E.pdf files respectively.
+To run the code listings for analysing RPA in the cholesterol concentration of the plasma membrane (Cp), the free cholesterol (Cf) and esterified cholesterol in Jupyterlab, copy and pate the code listings provided in the SingularRPA_Cp.pdf, Singular_Cf.pdf and Singular_E.pdf files respectively.
 
 For any further questions, please contact ronel.scheepers@hdr.qut.edu.au
